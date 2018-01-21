@@ -9,3 +9,8 @@ def turn_count(board)
   end
   counter
 end
+
+def current_player(board)
+  if input = gets =~ player.even? ? "X" : "O"
+  end
+end
