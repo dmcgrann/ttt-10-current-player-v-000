@@ -14,6 +14,6 @@ def current_player(board)
   if board.even?
     puts "X"
   else
-    puts "X"
+    puts "O"
   end
 end
