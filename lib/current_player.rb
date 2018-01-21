@@ -11,7 +11,6 @@ def turn_count(board)
 end
 
 def current_player(board)
-  input = gets.chomp
   if turn_board(board) % 2
     puts "X"
   else
