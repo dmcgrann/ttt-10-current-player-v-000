@@ -4,10 +4,9 @@ def turn_count(board)
   board.each_with_index do |player|
     if player == "X" || player == "O"
     counter += 1
-    puts "#{counter}"
     end
   end
-  counter
+  "#{counter}"
 end
 
 def current_player(board)
