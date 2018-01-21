@@ -11,7 +11,8 @@ def turn_count(board)
 end
 
 def current_player(board)
-  if board.even?
+  input = gets.chomp
+  if turn_board.even?
     puts "X"
   else
     puts "O"
