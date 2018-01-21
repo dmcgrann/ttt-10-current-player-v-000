@@ -12,7 +12,7 @@ end
 
 def current_player(board)
   input = gets.chomp
-  if turn_board.even?
+  if turn_board(board) % 2
     puts "X"
   else
     puts "O"
